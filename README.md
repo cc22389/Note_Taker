@@ -18,15 +18,15 @@ This project is licensed under the Unlicense license.
 
 ## Links
 - Repository: https://github.com/cc22389/Note_Taker.git
-- Deployed URL: https://cc22389.github.io/Note_Taker/
-- Heroku: 
+- Deployed URL: https://note-taker-cc22389.herokuapp.com/
 
 ## Screenshots
-- Home Screen
-![index.html demo](Develop/images/home.PNG)
 
-- Note Taking Screen
-![notes.html demo](Develop/images/notes.PNG)
+### Home Screen
+![index.html demo](/images/home.PNG)
+
+### Note Taking Screen
+![notes.html demo](/images/notes.PNG)
 
 ## Questions
 
