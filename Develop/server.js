@@ -4,6 +4,7 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require('body-parser')
 const fs = require('fs');
+// const customer = JSON.parse(fs.readFileSync("./db/db.json"));
 
 // EXPRESS CONFIGURATION
 // ==============================================================================
@@ -43,7 +44,7 @@ app.get("/api/notes", function (req, res) {
 });
 
 // API POST Requests
-let id = 0;
+let id = 1;
 app.post("/api/notes", function (req, res) {
   req.body.id = id;
   id++;
